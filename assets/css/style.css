@@ -1,0 +1,71 @@
+*{
+    font-family: "Merriweather", "Open Sans", serif, sans-serif;
+    color: black;
+    /*background-image: url("../images/Peanut-butter-jelly-time.gif");
+    background-repeat: repeat-y;*/
+}
+button {
+	color: black;
+	margin-left: 10px;
+	border-radius: 12px;
+}
+button:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.24), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+p {
+	color: red;
+	font-weight: bold;
+	background-color: white;
+	margin: 0px 0px 5px 10px;
+}
+.formText{
+	font-weight: bold;
+	font-size: 20px;
+	background-color: white;
+}
+form {
+	background-color: white;
+}
+.ajaxImages {
+	width: 240px;
+	height: 180px;
+	margin: 0px 0px 5px 10px;
+}
+.condimentsContainer{
+	display: inline-block;
+}
+.backgroundColorStuff{
+	background-color: white;
+}
+#pbjTime {
+	width: 200px;
+	height: 200px;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+}
+#sandwichCat{
+	width: 200px;
+	height: 200px;
+	position: fixed;
+	right: 220px;
+	bottom: 140px;
+	z-index: -1;
+	
+}
+#background {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index: -2;
+}
+.stretch {
+	width: 100%;
+	height: 100%;
+}
+#findCondi {
+	background-color: transparent;
+}
