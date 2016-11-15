@@ -11,6 +11,7 @@ button {
 }
 button:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.24), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color:red;
 }
 p {
 	color: red;
@@ -45,14 +46,19 @@ form {
 	top: 0px;
 	z-index: -1;
 }
+#galacticSandwich {
+	right: 200px;
+	bottom: 340px;
+	position: fixed;
+}
 #sandwichCat{
 	width: 200px;
 	height: 200px;
 	position: fixed;
-	right: 220px;
+	right: 270px;
 	bottom: 140px;
-	z-index: -1;
-	
+	/*z-index: -1;*/
+
 }
 #background {
 	width: 100%;
