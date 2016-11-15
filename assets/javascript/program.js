@@ -1,7 +1,7 @@
 //the topic is condiments.. don't judge
 
 //========Variables=============//
-var condiments = ["peanut butter", "jelly", "jam", "ketchup", "butter", "salt", "pepper"];
+var condiments = ["peanut butter", "jelly", "jam", "ketchup", "butter", "salt", "pepper", "PEANUT BUTTER JELLY TIME"];
 //==========Methods=============//
 $(document).ready(function() {
 	// This .on("click") function will trigger the AJAX Call
